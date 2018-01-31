@@ -19,7 +19,7 @@ export default class MemoDetailScreen extends React.Component {
         </View>
 
         <CircleButton color="white" style={styles.editButton}>
-          +
+          {'\uf040'}
         </CircleButton>
       </View>
     );
