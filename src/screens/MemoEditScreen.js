@@ -51,6 +51,8 @@ class MemoEditScreen extends React.Component {
           onChangeText={(text) => { this.setState({ body: text }); }}
           underlineColorAndroid="transparent"
           textAlignVertical="top"
+          autoCapitalize="none"
+          autoCorrect={false}
         />
         <CircleButton onPress={this.handlePress.bind(this)}>
           {'\uf00c'}
