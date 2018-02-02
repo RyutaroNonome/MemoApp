@@ -5,8 +5,6 @@ import firebase from 'firebase';
 import MemoList from '../components/MemoList';
 import CircleButton from '../elements/CircleButton';
 
-// require("firebase/firestore");
-
 export default class MemoListScreen extends React.Component {
   state = {
     memoList: [],
