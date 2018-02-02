@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, TouchableHighlight } from 'react-native';
 
 export default class MemoList extends React.Component {
   render() {
+    console.log(this.props.memoList);
     return (
       <View style={styles.memoList}>
 
