@@ -5,8 +5,8 @@ import { NavigationActions } from 'react-navigation';
 
 export default class LoginScreen extends React.Component {
   state = {
-    email: 'user1@example.com',
-    password: 'password',
+    email:    '',
+    password: '',
   }
 
   handleSubmit() {
@@ -41,6 +41,7 @@ export default class LoginScreen extends React.Component {
           autoCapitalize="none"
           autoCorrect={false}
           placeholder="Email Address"
+          underlineColorAndroid="transparent"
         />
         <TextInput
           style={styles.input}

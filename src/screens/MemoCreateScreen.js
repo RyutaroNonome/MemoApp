@@ -30,6 +30,10 @@ export default class MemoCreateScreen extends React.Component {
           style={styles.memoEditInput}
           multiline
           onChangeText={(text) => { this.setState({ body: text }); }}
+          underlineColorAndroid="transparent"
+          textAlignVertical="top"
+          autoCapitalize="none"
+          autoCorrect={false}
         />
         <CircleButton onPress={this.handlePress.bind(this)}>
           {'\uf00c'}
